@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PayPal Splash Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- bootstrap core -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <!--font-awsome core-->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <!--CSS core -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- JavaScript Core -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
+
+<!-- Navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><i class="fa fa-paypal fa-2x" style="color:white"></i></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://www.paypal.com/signin"><button class="btn">Log in</button></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1">
+  
+  <div class="container text">
+    <h1>PayPal for Slack</h1>
+    <p>Now you can send and request money from your,</p><p>teammates right from Slack</p>
+    <a href="https://slack.com/signin?redir=%2Foauth%3Fclient_id%3D16316687382.67232169857%26scope%3Dcommands%252Cidentify"><button class="btn btn-default">Add PayPal to Your Slack team</button></a>
+  </div>
+  
+</div>
+
+<!-- Second Container -->
+<div class="container bg-2">
+ 
+    <ul class="nav navbar-nav">
+      <li><a href="#about">About PayPal for Slack</a></li>
+      <li><a href="#how">How It Works</a></li>
+      <li><a href="#start">Get Started</a></li>
+    </ul>
+
+</div>
+
+<!-- Third Container -->
+<div class="container bg-3 text-center" id="about">    
+  <div class="row">
+    <div class="col-sm-6">
+      <h3>Send and receive money while you chat</h3>
+      <p>Chip in for that going away present. Get paid back for lunch.</p>
+    </div>
+    <div class="col-sm-6"> 
+      <img src="https://www.paypalobjects.com/web/res/eee/cd2eeb1f98f04a293851a58a332bb/images/example-c263f6.png" class="example"></img>
+    </div>
+  </div>
+</div>
+
+<!-- Forth Container -->
+<div class="container bg-4 text-center" id="how">
+  <h3>How It Works</h3>
+  <div class="examples">
+    <span class="box">
+    <span class="example1">/paypal send $5 to @dave</span>
+     </span>
+    <span class= "box">
+      <span class="example1">You sent $5 to @dave. Nice work!</span>
+    </span>
+    <span class="box">
+      <span class="example1">@Lee just sent $5 to @dfeff</span>
+    </span>
+    
+  </div>
+</div>
+
+<!-- Fifth Section -->
+<div class="container bg-5 text-center" id="start">
+  <h3>Get Started</h3>
+  <div class="row">
+    <div class="col-sm-4">
+        <div class="points">
+          <div class="numbers">1</div>
+          <div class="brief">Add PayPal for Slack to your team.</div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="points">
+          <div class="numbers">2</div>
+          <div class="brief">Link your PayPal account and set how you'd like to pay.</div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="points">
+          <div class="numbers">3</div>
+          <div class="brief">Type <span class="giveBorder">/paypal</span> and tell us how much to send and to whom.</div>
+        </div>
+    </div>
+     
+    <a href="https://slack.com/signin?redir=%2Foauth%3Fclient_id%3D16316687382.67232169857%26scope%3Dcommands%252Cidentify"><button class="btn btn-primary">Add PayPal to your Slack team</button></a>  
+
+  </div>
+</div>
+
+
+<!-- bg-6 -->
+
+<div class="container bg-6 text-left">
+  
+  <p><a href="https://www.paypal.com/US/selfhelp/home" class="item">HELP & CONTACT</a></p>
+  <p><a href="https://www.paypal.com/US/webapps/mpp/paypal-safety-and-security" class="item">SECURITY</a></p>
+   
+</div>
+
+<!-- Footer -->
+<footer class="container bg-7 text-right">
+  <p>&copy 1999-2016 PayPal, Inc. All rights reserved. |</p>
+  <ul class="foot">
+    <li class="privacy"><a href="https://www.paypal.com/US/webapps/mpp/ua/privacy-full">Privacy</a></li>
+    <li class="legal"><a href="https://www.paypal.com/US/webapps/mpp/ua/legalhub-full">Legal</a></li>
+  </ul>
+</footer>
+
+</body>
+</html>
